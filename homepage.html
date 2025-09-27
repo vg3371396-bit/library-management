@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management - Student</title>
+  <link rel="stylesheet" href="styling/homepage.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">📚 My Library</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="#">Borrowed</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="loginpage.html" onclick="return logout_confirm()">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <section class="hero">
+    <h1>Welcome to the Library</h1>
+    <p>Manage your books, check availability, and keep track of borrowed books easily.</p>
+    <a href="#" class="btn">Browse Books</a>
+  </section>
+</body>
+</html>
+
+
+<script>
+    function logout_confirm()
+    {
+       return confirm("Are you sure to logout...!");
+    }
+</script>
